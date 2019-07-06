@@ -1,0 +1,38 @@
+{
+  "name": "libsemver",
+  "version": "0.6.0",
+  "description": "semver as library",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepack": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghnacker/libsemver.git"
+  },
+  "author": {
+    "name": "Satoshi Nakagawa",
+    "email": "ghnacker@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghnacker/libsemver/issues"
+  },
+  "homepage": "https://github.com/ghnacker/libsemver#readme",
+  "dependencies": {
+    "@types/semver": "^6.0.1",
+    "semver": "^6.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.6",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.0",
+    "rollup-plugin-typescript2": "^0.21.2",
+    "typescript": "^3.5.2"
+  }
+}
