@@ -1,2 +1,2 @@
-# libsemver
-semver as library
+# semver-min
+minified semver

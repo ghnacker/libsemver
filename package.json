@@ -1,7 +1,7 @@
 {
-  "name": "libsemver",
-  "version": "0.6.0",
-  "description": "semver as library",
+  "name": "semver-min",
+  "version": "0.6.1",
+  "description": "minified semver",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "types": "./esm/index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghnacker/libsemver.git"
+    "url": "git+https://github.com/ghnacker/semver-min.git"
   },
   "author": {
     "name": "Satoshi Nakagawa",
@@ -20,9 +20,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ghnacker/libsemver/issues"
+    "url": "https://github.com/ghnacker/semver-min/issues"
   },
-  "homepage": "https://github.com/ghnacker/libsemver#readme",
+  "homepage": "https://github.com/ghnacker/semver-min#readme",
   "dependencies": {
     "@types/semver": "^6.0.1",
     "semver": "^6.2.0"
