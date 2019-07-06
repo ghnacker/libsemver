@@ -1,0 +1,2 @@
+# libsemver
+semver as library
