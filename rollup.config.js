@@ -21,6 +21,11 @@ export default {
       file: 'esm/index.js',
       format: 'esm',
     },
+    {
+      file: 'umd/index.js',
+      format: 'umd',
+      name: 'semver',
+    },
   ],
   plugins
 };
