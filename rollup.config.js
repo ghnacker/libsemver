@@ -1,11 +1,11 @@
-import commonjs from 'rollup-plugin-commonjs';
-import resolve from 'rollup-plugin-node-resolve';
-import typescript from 'rollup-plugin-typescript2';
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
+import ts from 'rollup-plugin-ts';
 
 const plugins = [
-  typescript(),
-  commonjs(),
+  ts(),
+  commonjs({ extensions: [ '.ts', '.js' ] }),
   resolve(),
   terser(),
 ];
@@ -14,15 +14,16 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: 'cjs/index.js',
+      dir: 'cjs',
       format: 'cjs',
+      exports: 'auto',
     },
     {
-      file: 'esm/index.js',
+      dir: 'esm',
       format: 'esm',
     },
     {
-      file: 'umd/index.js',
+      dir: 'umd',
       format: 'umd',
       name: 'semver',
     },

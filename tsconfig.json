@@ -3,8 +3,8 @@
     "target": "es5",
     "module": "es2015",
     "declaration": true,
+    "types": [ "semver" ],
     "strict": true,
-    "esModuleInterop": true,
     "newLine": "lf"
   }
 }
