@@ -1,7 +1,7 @@
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
-import ts from 'rollup-plugin-ts';
+import ts from '@wessberg/rollup-plugin-ts';
 
 const plugins = [
   ts(),
