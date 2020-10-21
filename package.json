@@ -1,6 +1,6 @@
 {
   "name": "semver-min",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "minified semver",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
