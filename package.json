@@ -27,13 +27,13 @@
     "@types/semver": "^7.3.4"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^16.0.0",
-    "@rollup/plugin-node-resolve": "^10.0.0",
-    "@wessberg/rollup-plugin-ts": "^1.3.7",
-    "rollup": "^2.33.1",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@wessberg/rollup-plugin-ts": "^1.3.8",
+    "rollup": "^2.35.1",
     "rollup-plugin-terser": "^7.0.2",
-    "semver": "^7.3.2",
-    "typescript": "^4.0.5"
+    "semver": "^7.3.4",
+    "typescript": "^4.1.3"
   },
   "files": [
     "{esm,cjs,umd}/index.js",
